@@ -3,14 +3,14 @@ import { GraduationCap, BookOpen, School } from 'lucide-react';
 
 const education = [
   {
-    type: 'Bachelor of Engineering',
+    type: 'Bachelor of Engineering (ECE)',
     institution: 'Guru Nanak Dev Engineering College, Bidar',
     field: 'Electronics and Communication Engineering',
-    status: 'Currently Studying',
+    status: 'Currently Pursuing',
     icon: <GraduationCap size={24} />
   },
   {
-    type: 'Pre-University Course (PUC)',
+    type: 'Pre-University Course (Science)',
     institution: 'Saptagiri PUC College, Bidar',
     field: 'Science',
     status: 'Completed',
@@ -24,6 +24,7 @@ const education = [
     icon: <School size={24} />
   }
 ];
+
 
 export default function Education() {
   return (

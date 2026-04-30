@@ -14,45 +14,49 @@ export default function About() {
         <div className={styles.content}>
           <div className={styles.textSide}>
             <p>
-              I am <span className={styles.highlight}>saiverma.in</span>, currently pursuing my Engineering degree in Electronics and Communication at <span className={styles.highlight}>Guru Nanak Dev Engineering College, Bidar</span>.
+              I’m an <span className={styles.highlight}>Electronics and Communication Engineering</span> student at <span className={styles.highlight}>Guru Nanak Dev Engineering College, Bidar</span>, with a strong passion for full-stack development.
             </p>
             <p>
-              My background in ECE gives me a unique perspective on how hardware and software interoperate. I bridge the gap between high-level logic and low-level system design.
+              My academic background enables me to understand systems from both a hardware and software perspective. I enjoy building applications that are not only functional but also scalable, efficient, and user-focused.
             </p>
             <p>
-              I am a quick learner and a team player. I'm currently looking for an internship opportunity where I can apply my skills in both frontend and backend development to deliver innovative solutions.
+              I’m currently seeking internship opportunities where I can contribute to real-world projects, collaborate with experienced teams, and continue growing as a developer.
             </p>
             
             <div className={styles.stats}>
               <div className={styles.statItem}>
                 <h3>9+</h3>
-                <p>Projects</p>
+                <p>Projects Completed</p>
               </div>
               <div className={styles.statItem}>
                 <h3>2+</h3>
-                <p>Years Learning</p>
+                <p>Years of Development</p>
               </div>
             </div>
+            <p className={styles.focusText}>
+              Strong focus on problem-solving and system design.
+            </p>
           </div>
 
           <div className={styles.featureSide}>
             <div className={styles.card}>
               <Zap className={styles.icon} size={32} />
-              <h3>Quick Learner</h3>
-              <p>Adapting rapidly to modern stacks like Next.js, React, and Node.js.</p>
+              <h3>Adaptability</h3>
+              <p>Quick to learn and implement modern technologies like React, Next.js, and Node.js.</p>
             </div>
             <div className={styles.card}>
               <Users className={styles.icon} size={32} />
-              <h3>Team Player</h3>
-              <p>Committing to collaborative success and shared technical excellence.</p>
+              <h3>Collaboration</h3>
+              <p>Effective team player with strong communication and development workflow practices.</p>
             </div>
             <div className={styles.card}>
               <Target className={styles.icon} size={32} />
-              <h3>Solution Oriented</h3>
-              <p>Focused on solving complex problems with efficient system design.</p>
+              <h3>Problem Solving</h3>
+              <p>Focused on building efficient, scalable, and maintainable solutions.</p>
             </div>
           </div>
         </div>
+
       </div>
     </section>
   );

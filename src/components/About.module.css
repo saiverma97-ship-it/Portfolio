@@ -107,7 +107,18 @@
   font-size: 0.95rem;
 }
 
+.focusText {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-left: 3px solid var(--accent-primary);
+  background: rgba(99, 102, 241, 0.05);
+  font-style: italic;
+  color: var(--text-primary) !important;
+  font-weight: 500;
+}
+
 @media (max-width: 991px) {
+
   .content {
     grid-template-columns: 1fr;
     gap: 40px;

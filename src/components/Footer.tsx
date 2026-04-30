@@ -6,11 +6,13 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.logo}>
-            saiverma<span>.in</span>
+            Sai Verma
           </div>
           <p className={styles.copy}>
-            &copy; {new Date().getFullYear()} saiverma.in. Designed & Built with passion.
+            &copy; {new Date().getFullYear()} Sai Verma. All rights reserved.
           </p>
+          <p className={styles.tagline}>Designed & developed with precision and passion.</p>
+
         </div>
       </div>
     </footer>

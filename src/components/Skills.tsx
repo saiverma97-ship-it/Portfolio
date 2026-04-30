@@ -3,21 +3,27 @@ import { Layout, Database, Settings } from 'lucide-react';
 
 const skillGroups = [
   {
-    title: 'Frontend',
+    title: 'Frontend Development',
     icon: <Layout size={24} />,
     skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
   },
   {
-    title: 'Backend',
+    title: 'Backend Development',
     icon: <Database size={24} />,
-    skills: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'REST APIs']
+    skills: ['Node.js', 'Express.js', 'MongoDB', 'PostgreSQL', 'REST APIs']
   },
   {
-    title: 'System Design',
+    title: 'System Design & Tools',
     icon: <Settings size={24} />,
-    skills: ['Architecture', 'Performance', 'Git', 'Scalability', 'ECE Principles']
+    skills: ['Scalable Architecture', 'Performance Optimization', 'Git', 'API Design']
+  },
+  {
+    title: 'Core Engineering Knowledge',
+    icon: <Settings size={24} />,
+    skills: ['Electronics Fundamentals', 'Embedded Concepts', 'System-Level Thinking']
   }
 ];
+
 
 export default function Skills() {
   return (

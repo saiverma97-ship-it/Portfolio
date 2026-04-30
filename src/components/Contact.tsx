@@ -10,10 +10,11 @@ export default function Contact() {
         <div className={styles.grid}>
           <div className={styles.info}>
             <span className={styles.label}>Get in Touch</span>
-            <h2 className={styles.title}>Let's talk about your next project</h2>
+            <h2 className={styles.title}>Let’s Build Something Meaningful</h2>
             <p className={styles.description}>
-              I am currently looking for an internship opportunity where I can apply my skills and knowledge. Feel free to reach out if you have any questions or just want to connect!
+              I’m open to internship opportunities, collaborations, and exciting projects. Feel free to reach out—I’d be glad to connect.
             </p>
+
             
             <div className={styles.connect}>
               <a href="mailto:contact@saiverma.in" className={styles.link}>

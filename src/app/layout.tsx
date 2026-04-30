@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import Preloader from "@/components/Preloader";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={outfit.variable}>
       <body className={outfit.className}>
+        <Preloader />
         <div className="bg-gradient">
           <div className="blob blob-1"></div>
           <div className="blob blob-2"></div>
@@ -33,3 +35,4 @@ export default function RootLayout({
     </html>
   );
 }
+

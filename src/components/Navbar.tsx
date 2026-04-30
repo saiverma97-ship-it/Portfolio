@@ -29,6 +29,7 @@ export default function Navbar() {
           <li><Link href="#about" onClick={() => setIsMobileMenuOpen(false)}>About</Link></li>
           <li><Link href="#skills" onClick={() => setIsMobileMenuOpen(false)}>Skills</Link></li>
           <li><Link href="#education" onClick={() => setIsMobileMenuOpen(false)}>Education</Link></li>
+          <li><Link href="#projects" onClick={() => setIsMobileMenuOpen(false)}>Projects</Link></li>
           <li><Link href="#contact" onClick={() => setIsMobileMenuOpen(false)}>Contact</Link></li>
         </ul>
 
